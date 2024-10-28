@@ -1,0 +1,11 @@
+Course_id,Course_name,Course_code,credits
+1,Mathematics,MATH101,3
+2,English,ENG101,3
+3,Science,SCI102,4
+4,"fluid mech",ENG201,2
+5,"Highway engineering",ENG301,3
+6,"Computer Science",CS411,4
+7,"data analysis",DT301,6
+8,Music,MUS501,2
+9,Education,EDU400,2
+10,Language,LAN203,1
