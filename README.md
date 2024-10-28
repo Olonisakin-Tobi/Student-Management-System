@@ -38,15 +38,19 @@ Grade VARCHAR(5)
 
                      -- QUESTION 2:Alterations and Modificatio
 -- Add a column `address` to the `students` table
+
 ALTER TABLE students ADD COLUMN address VARCHAR(100);
 
 -- Modify the `course_name` column in the `courses` table to be of type `VARCHAR(100)`
+ 
  ALTER TABLE courses MODIFY COLUMN Course_name VARCHAR(100);
  
  -- Change the position of the `credits` column to be right after the `course_code` in the `courses` table
+ 
  ALTER TABLE courses MODIFY COLUMN credits VARCHAR(25) AFTER Course_code;
  
  -- Rename the `dob` column in `students` to `date_of_birth
+
  ALTER TABLE students RENAME COLUMN dob TO date_of_birth;
  
  
